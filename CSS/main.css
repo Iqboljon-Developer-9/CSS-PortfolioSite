@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img,video{
+    height: 100%;
+    width: 100%;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-d-c{
+    flex-direction: column;
+}
+.f-a-s{
+    align-items: start;
+}
+.main-btn{
+    width: 184px;
+    height: 58px;
+    font-size: 1.125em;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.main-btn span{
+    display: inline-block;
+    transform: translateY(1.2px);
+}
+.m-btn-white{
+    background-color: white;
+}
+.m-btn-yellow{
+    background-color: var(--yellow);
+    transition: 120ms;
+}
+.m-btn-yellow:hover{
+    opacity: .86;
+}
+:root{
+    --display:3.5em;
+
+    --heading-1:3em;
+    --heading-2:2.25em;
+    --heading-3:1.75em;
+    --heading-4:1.5em;
+    --heading-5:1.25em;
+    --heading-6:1em;
+    --heading-7:.75em;
+
+    --black-900:#232536;
+    --black-800:#4C4C4C;
+    --black-700:#6D6E76;
+    
+    --white-600:#F4F4F4;
+    --white-500:#FBF6EA;
+
+    --yellow:#FFD050;
+
+    --purple-900:#592EA9;
+    --purple-800:#F4F0F8;
+}
+/* Core styles end */
