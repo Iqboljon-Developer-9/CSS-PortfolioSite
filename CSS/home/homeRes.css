@@ -38,6 +38,39 @@
     .category-img{
         transform: scale(.72);
     }
+    .starting{
+        font-size: 14px;
+        height: 580px;
+    }
+    .starting-content{
+        width: 580px;
+        padding: 50px;
+    }
+    .authors{
+        font-size: 14px;
+        padding-top: 4.6em;
+    }
+    .authors-container{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    .author-img{
+        width: 120px;
+        height: 120px;
+    }
+    .author h2{
+        font-size: var(--heading-3);
+    }
+    .author p{
+        font-size: var(--heading-6);
+    }
+    .supporters{
+        padding: 28px 8px;
+        gap: 2%;
+    }
+    .supporters img{
+        width: 120px;
+    }
 }
 @media (max-width:828px) {
     .categories{
@@ -49,6 +82,9 @@
     .category{
         gap: .7em;
         pad: 1%;
+    }
+    .supporters img{
+        width: 100px;
     }
 }
 @media (max-width:800px) {
@@ -62,6 +98,29 @@
     .category{
         border-radius: 6px;
         padding: 4%;
+    }
+    .starting{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    
+        height: auto;
+    }
+    .starting-img{
+        position: static;
+        width: initial;
+        min-width: 100%;
+    }
+    .starting-content{
+        position: static;
+        width: 100%;
+        padding: 40px 4%;
+    }
+    .starting-content > button{
+        font-size: 14px;
+        padding: 2% 4%;
+        height: auto;
     }
 }
 @media (max-width:740px) {
@@ -94,6 +153,16 @@
     }
     .more-info{
         font-size: 12.8px;
+    }
+    .supporters{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        gap: 6%;
+        padding-top: 60px;
+    }
+    .supporters img{
+        height: 32px;
+        width: 80%;
     }
 }
 @media (max-width:700px) {
@@ -166,6 +235,22 @@
     .about-us h1,.our-mission h1{
         letter-spacing: 0px
     }
+    .starting{
+        font-size: 12.8px;
+    }
+    .authors-container{
+        grid-template-columns: 1fr;
+    }
+    .supporters{
+        font-size: 12px;
+    }
+    .supporters-info p{
+        font-size: 12px;
+    }
+    .supporters img{
+        height: 24px;
+        width: 100px;
+    }
 }
 @media (max-width:400px) {
     .main{
@@ -189,5 +274,27 @@
     }
     .categories-container{
         grid-template-columns: 1fr;
+    }
+    .starting{
+        font-size: 12px;
+    }
+    .starting-content{
+        align-items: center;
+        text-align: center;
+        padding: 8% 4%;
+    }
+    .starting-content h1{
+        font-size: var(--heading-2);
+    }
+    .starting-content > button{
+        font-size: 12px;
+        padding: 4% 6%;
+    }
+    .supporters{
+        grid-template-columns:2fr 2fr;
+        padding-top: 80px;
+    }
+    .supporters img{
+        width: 120px;
     }
 }
