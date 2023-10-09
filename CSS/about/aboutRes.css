@@ -158,3 +158,8 @@
     font-size: 3.06vw;
   }
 }
+@media (max-width:340px) {
+  .blog-description{
+    font-size: 1.08em;
+  }
+}

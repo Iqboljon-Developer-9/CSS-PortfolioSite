@@ -64,7 +64,8 @@
   width: 328px;
   display: grid;
   gap: 4em;
-  padding: 2% 0;
+  /* padding:2% 0; */
+  padding-bottom: 2%;
 }
 .main-aside-categories {
   width: 100%;

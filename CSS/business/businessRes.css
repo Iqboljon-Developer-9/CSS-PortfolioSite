@@ -78,7 +78,7 @@
   }
   .main-aside-category{
     padding: 2% 4%;
-    height: 60px;
+    /* height: 60px; */
   }
   .main-aside-category img:not(.imgPng) {
     padding: 3.4%;

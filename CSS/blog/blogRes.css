@@ -107,14 +107,19 @@
     padding-bottom: 2em;
     gap: 2vh;
   }
-  .blog-all-post-content{
+  .blog-all-post-content {
     font-size: 2.64vw;
     padding: 0 10px;
   }
-  .blog-all-post{
+  .blog-all-post {
     width: 100%;
   }
-  .blog-all-post-img{
+  .blog-all-post-img {
     width: 100vw;
+  }
+}
+@media (max-width:340px) {
+  .blog-all-post-content p:last-child {
+    font-size: 1.2em;
   }
 }
